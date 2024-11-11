@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/Captura de pantalla 2024-11-07 193801.png" alt="Descripción de la imagen">
+  <img src="./01_data/05_images/Captura de pantalla 2024-11-07 193801.png" alt="Descripción de la imagen">
 </p>
 
 # 🎓 Proyecto de Machine Learning: Predicción de Éxito o Fracaso Académico 📊
@@ -151,6 +151,5 @@ Este diseño te ayuda a entender mejor la estructura y relevancia de cada grupo 
 
 
 <p align="center">
-  <img src="./images/Captura de pantalla 2024-11-07 211344.png" alt="Descripción de la imagen">
+  <img src="./01_data/05_images/Captura de pantalla 2024-11-07 211344.png" alt="Descripción de la imagen">
 </p>
-
