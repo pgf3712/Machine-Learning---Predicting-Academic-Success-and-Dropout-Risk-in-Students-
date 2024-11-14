@@ -3,14 +3,14 @@ import pandas as pd
 import pickle
 
 # Cargar el modelo entrenado (incluye el escalador y el modelo de regresión logística)
-with open('../04_models/final_model_basico.pkl', 'rb') as f:  
+with open('../04_models/final_model_2.pkl', 'rb') as f:  
     modelo = pickle.load(f)
 
 # Título de la aplicación
 st.title("Predicción de Éxito Académico")
 
 # Crear entradas para los datos del usuario
-# daytime_evening_attendance = st.selectbox("Asistencia Diurna/Nocturna", ["Daytime", "Evening"])
+daytime_evening_attendance = st.selectbox("Asistencia Diurna/Nocturna", ["Daytime", "Evening"])
 previous_qualification_grade = st.number_input("Nota Calificación Previa", min_value=0.0, max_value=10.0)
 mothers_qualification = st.selectbox("Calificación de la Madre", ["None", "High School", "Bachelor's", "Master's", "Other"])
 fathers_qualification = st.selectbox("Calificación del Padre", ["None", "High School", "Bachelor's", "Master's", "Other"])
@@ -34,7 +34,7 @@ curricular_units_2nd_sem_approved = st.number_input("Unidades Curriculares 2do S
 curricular_units_2nd_sem_grade = st.number_input("Nota Unidades Curriculares 2do Semestre", min_value=0.0, max_value=10.0)
 
 # Convertir variables categóricas a valores numéricos
-# daytime_evening_attendance = 0 if daytime_evening_attendance == "Daytime" else 1
+daytime_evening_attendance = 0 if daytime_evening_attendance == "Daytime" else 1
 mothers_qualification = {"None": 0, "High School": 1, "Bachelor's": 2, "Master's": 3, "Other": 4}[mothers_qualification]
 fathers_qualification = {"None": 0, "High School": 1, "Bachelor's": 2, "Master's": 3, "Other": 4}[fathers_qualification]
 educational_special_needs = 1 if educational_special_needs == "Yes" else 0
@@ -46,28 +46,28 @@ international = 1 if international == "Yes" else 0
 
 # Crear un DataFrame con los datos ingresados
 data = pd.DataFrame({
-    #"Daytime/evening attendance": [daytime_evening_attendance],
-    #"Previous qualification (grade)": [previous_qualification_grade],
-    #"Mother's qualification": [mothers_qualification],
-    #"Father's qualification": [fathers_qualification],
-    #"Admission grade": [admission_grade],
-    #"Educational special needs": [educational_special_needs],
-    #"Debtor": [debtor],
-    #"Tuition fees up to date": [tuition_fees_up_to_date],
-    #"Gender": [gender],
-    #"Scholarship holder": [scholarship_holder],
-    #"Age at enrollment": [age_at_enrollment],
-    #"International": [international],
-    #"Curricular units 1st sem (credited)": [curricular_units_1st_sem_credited],
+    "Daytime/evening attendance": [daytime_evening_attendance],
+    "Previous qualification (grade)": [previous_qualification_grade],
+    "Mother's qualification": [mothers_qualification],
+    "Father's qualification": [fathers_qualification],
+    "Admission grade": [admission_grade],
+    "Educational special needs": [educational_special_needs],
+    "Debtor": [debtor],
+    "Tuition fees up to date": [tuition_fees_up_to_date],
+    "Gender": [gender],
+    "Scholarship holder": [scholarship_holder],
+    "Age at enrollment": [age_at_enrollment],
+    "International": [international],
+    "Curricular units 1st sem (credited)": [curricular_units_1st_sem_credited],
     "Curricular units 1st sem (enrolled)": [curricular_units_1st_sem_enrolled],
-    #"Curricular units 1st sem (evaluations)": [curricular_units_1st_sem_evaluations],
+    "Curricular units 1st sem (evaluations)": [curricular_units_1st_sem_evaluations],
     "Curricular units 1st sem (approved)": [curricular_units_1st_sem_approved],
-    #"Curricular units 1st sem (grade)": [curricular_units_1st_sem_grade],
-    #"Curricular units 2nd sem (credited)": [curricular_units_2nd_sem_credited],
+    "Curricular units 1st sem (grade)": [curricular_units_1st_sem_grade],
+    "Curricular units 2nd sem (credited)": [curricular_units_2nd_sem_credited],
     "Curricular units 2nd sem (enrolled)": [curricular_units_2nd_sem_enrolled],
-    #"Curricular units 2nd sem (evaluations)": [curricular_units_2nd_sem_evaluations],
+    "Curricular units 2nd sem (evaluations)": [curricular_units_2nd_sem_evaluations],
     "Curricular units 2nd sem (approved)": [curricular_units_2nd_sem_approved],
-    #"Curricular units 2nd sem (grade)": [curricular_units_2nd_sem_grade]
+    "Curricular units 2nd sem (grade)": [curricular_units_2nd_sem_grade]
 })
 
 # Botón para realizar la predicción
@@ -78,8 +78,7 @@ if st.button("Predecir"):
 
     # Mostrar resultados
     st.write("Predicción:", "Se Gradúa" if prediccion[0] == 1 else "No se Gradúa")
-    st.write("Predicción:",  prediccion)
     st.write("Probabilidad de éxito académico:", probabilidad[0][1])
     st.write("Probabilidad de riesgo de abandono:", probabilidad[0][0])
-    
- 
+
+ # streamlit run app.py

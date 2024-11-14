@@ -40,15 +40,15 @@ df_academico_train.head(1)
 # -------------------------------------------------------------------------
 
 # SEPARO TARGET PARA MI MEJOR MODELO DE PREDICCION
-x = df_academico_train.drop(columns=['Target'])  
-y = df_academico_train['Target']                 
-print(x)
 
-X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+X = df_academico_train.drop(columns=['Target'])  
+y = df_academico_train['Target']                 
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 mi_mejor_modelo = Pipeline([
     ('scaler', StandardScaler()),
-    ('logreg', LogisticRegression(C=1, penalty='l1', solver='liblinear', random_state=42))
+    ('logreg', LogisticRegression(C=0.1, penalty='l1', solver='saga', random_state=42, max_iter = 1000))
 ])
 
 # ENTRENAMIENTO DEL MODELO
@@ -72,6 +72,5 @@ print(classification_report(y_test, y_pred))
 
 # Guardo mi modelo
 
-with open('../04_models/final_model_f.pkl', 'wb') as f:
-    print("Creado")
+with open('../04_models/final_model_2.pkl', 'wb') as f:
     pickle.dump(mi_mejor_modelo, f) 
