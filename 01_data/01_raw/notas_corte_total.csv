@@ -1,0 +1,573 @@
+Código,TITULACIONES DE GRADO,Grupo 1 Ord.,Centro,Especialidad,NOTA FINAL
+0001,Arqueología,5.0,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0002,Bellas Artes,10.115,Universidad Complutense de Madrid,Humanidades y Artes,7.225
+0019,Ciencias de las Religiones,5.0,Universidad Complutense de Madrid,Ciencias,5.0
+0004,Conservación y Restauración del Patrimonio Cultural,10.1,Universidad Complutense de Madrid,Humanidades y Artes,7.214
+0005,Diseño,11.818,Universidad Complutense de Madrid,Humanidades y Artes,8.441
+0006,Español: Lengua y Literatura,5.0,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0007,Estudios Ingleses,7.578,Universidad Complutense de Madrid,Humanidades y Artes,5.413
+0008,Estudios Semíticos e Islámicos,5.0,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0020,Estudios Teatrales,5.982,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0009,Filología Clásica,5.0,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0010,Filosofía,7.454,Universidad Complutense de Madrid,Humanidades y Artes,5.324
+0011,Historia,5.0,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0012,Historia del Arte,10.346,Universidad Complutense de Madrid,Humanidades y Artes,7.39
+0013,Lenguas Modernas y sus Literaturas,5.0,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0015,Lingüística y Lenguas Aplicadas,5.0,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0018,Literatura General y Comparada,5.0,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0016,Musicología,6.084,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0014,Traducción e Interpretación,7.127,Universidad Complutense de Madrid,Humanidades y Artes,5.091
+0030,Biología,10.339,Universidad Complutense de Madrid,Ciencias,7.385
+0031,Bioquímica,12.523,Universidad Complutense de Madrid,Ciencias,8.945
+0037,Ciencia y Tecnología de los Alimentos,8.728,Universidad Complutense de Madrid,Ciencias,6.234
+0032,Física,12.06,Universidad Complutense de Madrid,Ciencias,8.614
+0033,Geología,5.0,Universidad Complutense de Madrid,Ciencias,5.0
+0034,Matemáticas,12.3,Universidad Complutense de Madrid,Ciencias,8.786
+0038,Matemáticas y Ciencia de Datos,11.965,Universidad Complutense de Madrid,Ciencias,8.546
+0036,Química,10.136,Universidad Complutense de Madrid,Ciencias,7.24
+0050,Enfermería,11.774,Universidad Complutense de Madrid,Biosanitario,8.41
+0051,Farmacia,11.784,Universidad Complutense de Madrid,Biosanitario,8.417
+0052,Fisioterapia,11.678,Universidad Complutense de Madrid,Biosanitario,8.341
+0053,Logopedia,9.475,Universidad Complutense de Madrid,Biosanitario,6.768
+0054,Medicina,13.265,Universidad Complutense de Madrid,Biosanitario,9.475
+0055,Nutrición Humana y Dietética,10.462,Universidad Complutense de Madrid,Biosanitario,7.473
+0056,Odontología,12.777,Universidad Complutense de Madrid,Biosanitario,9.126
+0057,Óptica y Optometría,7.667,Universidad Complutense de Madrid,Biosanitario,5.476
+0058,Podología,9.11,Universidad Complutense de Madrid,Biosanitario,6.507
+0059,Psicología,10.289,Universidad Complutense de Madrid,Biosanitario,7.349
+0060,Terapia Ocupacional,9.536,Universidad Complutense de Madrid,Biosanitario,6.811
+0061,Veterinaria,12.075,Universidad Complutense de Madrid,Biosanitario,8.625
+0088,Desarrollo de Videojuegos,10.264,Universidad Complutense de Madrid,Tecnológico-Ingenierías,7.331
+0080,Ingeniería de Computadores,9.689,Universidad Complutense de Madrid,Tecnológico-Ingenierías,6.921
+0089,Ingeniería de Datos e Inteligencia Artificial,12.678,Universidad Complutense de Madrid,Tecnológico-Ingenierías,9.056
+0086,Ingeniería de Materiales,8.886,Universidad Complutense de Madrid,Tecnológico-Ingenierías,6.347
+0081,Ingeniería del Software,10.4,Universidad Complutense de Madrid,Tecnológico-Ingenierías,7.429
+0087,Ingeniería Electrónica de Comunicaciones,8.867,Universidad Complutense de Madrid,Tecnológico-Ingenierías,6.334
+0083,Ingeniería Geológica,5.0,Universidad Complutense de Madrid,Tecnológico-Ingenierías,5.0
+0082,Ingeniería Informática,10.914,Universidad Complutense de Madrid,Tecnológico-Ingenierías,7.796
+0084,Ingeniería Matemática,12.491,Universidad Complutense de Madrid,Tecnológico-Ingenierías,8.922
+0085,Ingeniería Química,11.154,Universidad Complutense de Madrid,Ciencias,7.967
+0100,Administración y Dirección de Empresas,10.385,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.418
+0128,Administración y Dirección de Empresas (en inglés),11.157,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.969
+0101,Antropología Social y Cultural,5.0,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.0
+0125,Ciencia de los Datos Aplicada,11.304,Universidad Complutense de Madrid,Ciencias,8.074
+0102,Ciencias Políticas,5.0,Universidad Complutense de Madrid,Ciencias,5.0
+0103,Comercio,8.261,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.901
+0104,Comunicación Audiovisual,10.486,Universidad Complutense de Madrid,Humanidades y Artes,7.49
+0126,Criminología,11.599,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,8.285
+0106,Derecho,8.875,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,6.339
+0108,Economía,9.211,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,6.579
+0129,Economía (en inglés),10.25,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.321
+0109,Educación Social,8.399,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.999
+0110,Estadística Aplicada,9.111,Universidad Complutense de Madrid,Ciencias,6.508
+0127,"Finanzas, Banca y Seguros",9.828,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.02
+0111,Geografía y Ordenación del Territorio,5.0,Universidad Complutense de Madrid,Ciencias,5.0
+0112,Gestión y Administración Pública,5.011,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.0
+0114,Información y Documentación,5.0,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.0
+0115,Maestro de Educación Infantil,9.46,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,6.757
+0116,Maestro de Educación Primaria,10.511,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.508
+0117,Pedagogía,9.2,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,6.571
+0118,Periodismo,7.574,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.41
+0119,Publicidad y Relaciones Públicas,10.833,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.738
+0120,Relaciones Internacionales,11.878,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,8.484
+0121,Relaciones Laborales y Recursos Humanos,8.086,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.776
+0122,Sociología,5.0,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.0
+0123,Trabajo Social,7.593,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.424
+0124,Turismo,5.0,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.0
+0130,ADE - Ingeniería Informática,11.689,Universidad Complutense de Madrid,Tecnológico-Ingenierías,8.349
+0148,Ciencias Políticas - Filosofía,5.0,Universidad Complutense de Madrid,Ciencias,5.0
+0140,Derecho - ADE,10.95,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.821
+0143,Derecho - Ciencias Políticas,10.329,Universidad Complutense de Madrid,Ciencias,7.378
+0194,Derecho - Estudios Jurídico Militares,9.889,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.064
+0145,Derecho - Filosofía,8.075,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.768
+0141,Derecho - Relaciones Laborales y Recursos Humanos,10.215,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.296
+0137,Economía - Matemáticas y Ciencia de Datos,12.975,Universidad Complutense de Madrid,Ciencias,9.268
+0134,Economía - Relaciones Internacionales,12.97,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,9.264
+0199,Farmacia - Nutrición Humana y Dietética,12.588,Universidad Complutense de Madrid,Biosanitario,8.991
+0135,Gestión y Administración Pública - Economía,8.9,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,6.357
+0147,Historia - Filología Clásica,5.668,Universidad Complutense de Madrid,Humanidades y Artes,5.0
+0142,Ingeniería Informática - Matemáticas,13.525,Universidad Complutense de Madrid,Ciencias,9.661
+0131,Maestro de Ed. Infantil - Maestro de Ed. Primaria,11.746,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,8.39
+0132,Maestro de Educación Infantil - Pedagogía,9.911,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,7.079
+0133,Maestro de Educación Primaria - Pedagogía,11.761,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,8.401
+0144,Matemáticas - Física,13.736,Universidad Complutense de Madrid,Ciencias,9.811
+0197,Psicología - Logopedia,10.602,Universidad Complutense de Madrid,Biosanitario,7.573
+0136,Química - Bioquímica,12.978,Universidad Complutense de Madrid,Ciencias,9.27
+0149,Sociología - Relaciones Internacionales,11.219,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,8.014
+0198,Turismo - Comercio,7.478,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.341
+0196,Bachelor of Arts in European Studies,8.73,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,6.236
+0368,Diseño de Moda (UPM) y Comercio (UCM),5.0,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,5.0
+0138,Titulación Internacional en ADE (UCM-HWR Berlín),11.498,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,8.213
+0107,Titulación Internacional en Derecho (UCM-Sorbonne),9.687,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,6.919
+0139,Titulación Internacional en Economía (UCM-Sorbonne),12.161,Universidad Complutense de Madrid,Ciencias Sociales-Jurídicas,8.686
+0150,Administración y Dirección de Empresas,5.0,CES Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0151,Derecho,5.0,CES Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0153,Derecho - ADE,5.0,CES Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0152,Psicología,5.0,CES Cardenal Cisneros,Biosanitario,5.0
+0160,Educación Social,5.0,CES Don Bosco,Ciencias Sociales-Jurídicas,5.0
+0161,Maestro de Educación Infantil,5.0,CES Don Bosco,Ciencias Sociales-Jurídicas,5.0
+0169,Maestro de Educación Infantil - Maestro de Educación Primaria,5.0,CES Don Bosco,Ciencias Sociales-Jurídicas,5.0
+0162,Maestro de Educación Primaria,5.0,CES Don Bosco,Ciencias Sociales-Jurídicas,5.0
+0168,Maestro de Educación Primaria - Pedagogía,5.0,CES Don Bosco,Ciencias Sociales-Jurídicas,5.0
+0163,Pedagogía,5.0,CES Don Bosco,Ciencias Sociales-Jurídicas,5.0
+0180,Derecho,5.0,CES IEB,Ciencias Sociales-Jurídicas,5.0
+0195,Derecho,5.0,ISDE,Ciencias Sociales-Jurídicas,5.0
+0218,Arqueología,5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0200,Estudios Clásicos y de la Antigüedad,5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0201,Estudios de Asia y África (Árabe),5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0202,Estudios de Asia y África (Chino),5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0203,Estudios de Asia y África (Japonés),5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0204,Estudios Hispánicos: Lengua Española y sus Literaturas,5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0205,Estudios Ingleses,5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0206,Filosofía,5.517,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0207,Historia,5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0208,Historia del Arte,5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0209,Historia y Ciencias de la Música y Tecnología Musical,8.46,Universidad Autónoma de Madrid,Ciencias,6.043
+0210,"Lenguas Modernas, Cultura y Comunicación-Español",5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0211,"Lenguas Modernas, Cultura y Comunicación-Francés",5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0212,"Lenguas Modernas, Cultura y Comunicación-Inglés",5.0,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0213,Traducción e Interpretación (Francés),5.91,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0214,Traducción e Interpretación (Inglés),9.561,Universidad Autónoma de Madrid,Humanidades y Artes,6.829
+0220,Biología,9.943,Universidad Autónoma de Madrid,Ciencias,7.102
+0221,Bioquímica,12.318,Universidad Autónoma de Madrid,Ciencias,8.799
+0223,Ciencia y Tecnología de los Alimentos,8.864,Universidad Autónoma de Madrid,Ciencias,6.331
+0222,Ciencias Ambientales,7.299,Universidad Autónoma de Madrid,Ciencias,5.214
+0224,Física,12.061,Universidad Autónoma de Madrid,Ciencias,8.615
+0225,Matemáticas,11.988,Universidad Autónoma de Madrid,Ciencias,8.563
+0226,Química,9.961,Universidad Autónoma de Madrid,Ciencias,7.115
+0230,Enfermería (Facultad Medicina UAM),11.831,Universidad Autónoma de Madrid,Biosanitario,8.451
+0235,Medicina,13.148,Universidad Autónoma de Madrid,Biosanitario,9.391
+0236,Nutrición Humana y Dietética,10.2,Universidad Autónoma de Madrid,Biosanitario,7.286
+0237,Psicología,10.739,Universidad Autónoma de Madrid,Biosanitario,7.671
+0260,Administración y Dirección de Empresas,10.667,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,7.619
+0272,Análisis de Datos en la Empresa / Business Analytics,11.91,Universidad Autónoma de Madrid,Tecnológico-Ingenierías,8.507
+0215,Antropología Social y Cultural,5.0,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,5.0
+0262,Ciencias de la Actividad Física y del Deporte,11.0,Universidad Autónoma de Madrid,Ciencias,7.857
+0261,Ciencia Política y Administración Pública,8.315,Universidad Autónoma de Madrid,Ciencias,5.939
+0277,Ciencia Política y Administración Pública - Mención en Gobierno y dirección pública,8.98,Universidad Autónoma de Madrid,Ciencias,6.414
+0278,Ciencia Política y Administración Pública - Mención en Relaciones internacionales y Unión Europea,12.178,Universidad Autónoma de Madrid,Ciencias,8.699
+0263,Derecho,10.226,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,7.304
+0273,Derecho - Mención en Derecho de la energía y del medio ambiente,9.137,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,6.526
+0274,Derecho - Mención en Derecho de los negocios internacionales,11.582,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,8.273
+0275,Derecho - Mención en Derecho digital y de las tecnologías,11.128,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,7.949
+0276,Derecho - Mención en Derechos humanos y justicia social,10.289,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,7.349
+0264,Economía,9.811,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,7.008
+0279,Economía (Grupo bilingüe: español/inglés),8.889,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,6.349
+0265,Economía y Finanzas,11.423,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,8.159
+0216,Estudios Internacionales,11.41,Universidad Autónoma de Madrid,Humanidades y Artes,8.15
+0266,"Geografía, Geotecnologías y Sostenibilidad Territorial",5.0,Universidad Autónoma de Madrid,Ciencias,5.0
+0267,Gestión Aeronáutica,10.864,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,7.76
+0268,Maestro en Educación Infantil,9.15,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,6.536
+0269,Maestro en Educación Primaria,10.177,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,7.269
+0270,Turismo,5.0,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,5.0
+0254,Ciencia e Ingeniería de Datos,11.203,Universidad Autónoma de Madrid,Ciencias,8.002
+0247,Ingeniería Biomédica,12.611,Universidad Autónoma de Madrid,Tecnológico-Ingenierías,9.008
+0252,Ingeniería de Tecnologías y Servicios de Telecomunicación,9.714,Universidad Autónoma de Madrid,Tecnológico-Ingenierías,6.939
+0250,Ingeniería Informática,10.864,Universidad Autónoma de Madrid,Tecnológico-Ingenierías,7.76
+0251,Ingeniería Química,10.545,Universidad Autónoma de Madrid,Ciencias,7.532
+0253,Programa Académico en Master en Ingeniería de Telecomunicación vía Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación,10.465,Universidad Autónoma de Madrid,Tecnológico-Ingenierías,7.475
+0248,Programa Académico en Master en Ingeniería Informática vía Grado en Ingeniería Informática,11.65,Universidad Autónoma de Madrid,Tecnológico-Ingenierías,8.321
+0283,Ciencias Ambientales - Geografía y Ordenación del Territorio,6.218,Universidad Autónoma de Madrid,Ciencias,5.0
+0280,Derecho - Administración y Dirección de Empresas,11.475,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,8.196
+0281,Derecho - Ciencia Política y Administración Pública,8.582,Universidad Autónoma de Madrid,Ciencias,6.13
+0288,Estudios Internacionales - Estudios de Asia y África (Árabe),9.847,Universidad Autónoma de Madrid,Humanidades y Artes,7.034
+0296,Filosofía - Historia,12.234,Universidad Autónoma de Madrid,Humanidades y Artes,8.739
+0286,Filosofía - Historia y CC. de la Música y Tecnología Musical,9.22,Universidad Autónoma de Madrid,Tecnológico-Ingenierías,6.586
+0297,Historia - Estudios Internacionales,13.104,Universidad Autónoma de Madrid,Humanidades y Artes,9.36
+0284,Historia del Arte - Estudios Clásicos y de la Antigüedad,6.52,Universidad Autónoma de Madrid,Humanidades y Artes,5.0
+0298,Historia del Arte - Historia,12.456,Universidad Autónoma de Madrid,Humanidades y Artes,8.897
+0282,Ingeniería Informática - Matemáticas,13.239,Universidad Autónoma de Madrid,Ciencias,9.456
+0287,Maestro en Educación Infantil - Maestro en Educación Primaria,10.91,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,7.793
+0288,Nutrición Humana y Dietética - Ciencia y Tecnología de los Alimentos,11.322,Universidad Autónoma de Madrid,Biosanitario,8.087
+0299,"Traducción e Interpretación (Francés) - Lenguas Modernas, Cultura y Comunicación (Francés)",12.578,Universidad Autónoma de Madrid,Humanidades y Artes,8.984
+0217,"Ciencia, Tecnología y Humanidades (UAB, UAM y UC3M)",5.0,Universidad Autónoma de Madrid,Ciencias,5.0
+0227,"Ciencias (UAB, UAM y UC3M)",8.05,Universidad Autónoma de Madrid,Ciencias,5.75
+0285,"Filosofía, Política y Economía (UAB, UAM, UC3M y UPF)",12.222,Universidad Autónoma de Madrid,Ciencias Sociales-Jurídicas,8.73
+0271,Diseño y Gestión de Proyectos Transmedia,5.0,CES Universitario La Salle,Humanidades y Artes,5.0
+0290,Educación Social,5.0,CES Universitario La Salle,Ciencias Sociales-Jurídicas,5.0
+0291,Fisioterapia,5.0,CES Universitario La Salle,Biosanitario,5.0
+0292,Maestro en Educación Infantil,5.0,CES Universitario La Salle,Ciencias Sociales-Jurídicas,5.0
+0293,Maestro en Educación Primaria,5.0,CES Universitario La Salle,Ciencias Sociales-Jurídicas,5.0
+0238,Podología,6.43,CES Universitario La Salle,Biosanitario,5.0
+0294,Terapia Ocupacional,5.0,CES Universitario La Salle,Biosanitario,5.0
+0295,Trabajo Social,5.0,CES Universitario La Salle,Ciencias Sociales-Jurídicas,5.0
+0233,Enfermería,10.964,E.U. Enfermería Cruz Roja,Biosanitario,7.831
+0234,Enfermería,10.777,E.U. Enfermería Fundación Jiménez Díaz,Biosanitario,7.698
+0231,Enfermería (Campus Villalba),10.683,E.U. Enfermería Fundación Jiménez Díaz,Biosanitario,7.631
+0400,Estudios Hispánicos,5.0,Universidad de Alcalá,Humanidades y Artes,5.0
+0401,Estudios Ingleses,7.02,Universidad de Alcalá,Humanidades y Artes,5.014
+0402,Historia,5.0,Universidad de Alcalá,Humanidades y Artes,5.0
+0403,Humanidades,5.0,Universidad de Alcalá,Humanidades y Artes,5.0
+0404,Lenguas Modernas y Traducción,6.386,Universidad de Alcalá,Humanidades y Artes,5.0
+0405,Lenguas Modernas y Traducción (Guadalajara),5.0,Universidad de Alcalá,Humanidades y Artes,5.0
+0410,Biología,10.925,Universidad de Alcalá,Ciencias,7.804
+0411,Ciencias Ambientales,5.489,Universidad de Alcalá,Ciencias,5.0
+0413,Criminalística: Ciencias y Tecnologías Forenses,12.374,Universidad de Alcalá,Ciencias,8.839
+0415,Física e Instrumentación Espacial,12.025,Universidad de Alcalá,Ciencias,8.589
+0412,Química,10.285,Universidad de Alcalá,Ciencias,7.346
+0420,Biología Sanitaria,12.5,Universidad de Alcalá,Ciencias,8.929
+0421,Ciencias de la Actividad Física y del Deporte,10.89,Universidad de Alcalá,Ciencias,7.779
+0422,Enfermería,11.76,Universidad de Alcalá,Biosanitario,8.4
+0423,Enfermería (Guadalajara),11.614,Universidad de Alcalá,Biosanitario,8.296
+0424,Farmacia,11.61,Universidad de Alcalá,Biosanitario,8.293
+0425,Fisioterapia,11.425,Universidad de Alcalá,Biosanitario,8.161
+0426,Medicina,13.102,Universidad de Alcalá,Biosanitario,9.359
+0460,Administración y Dirección de Empresas,10.311,Universidad de Alcalá,Ciencias Sociales-Jurídicas,7.365
+0461,Administración y Dirección de Empresas (Guadalajara),8.842,Universidad de Alcalá,Ciencias Sociales-Jurídicas,6.316
+0462,Comunicación Audiovisual (Guadalajara),8.959,Universidad de Alcalá,Humanidades y Artes,6.399
+0463,Finanzas,8.6,Universidad de Alcalá,Ciencias Sociales-Jurídicas,6.143
+0464,Derecho,8.865,Universidad de Alcalá,Ciencias Sociales-Jurídicas,6.332
+0465,Economía,8.902,Universidad de Alcalá,Ciencias Sociales-Jurídicas,6.359
+0466,Economía y Negocios Internacionales,11.918,Universidad de Alcalá,Ciencias Sociales-Jurídicas,8.513
+0471,Economía y Negocios Internacionales (docencia en inglés),10.814,Universidad de Alcalá,Ciencias Sociales-Jurídicas,7.724
+0468,Magisterio de Educación Infantil (Guadalajara),8.753,Universidad de Alcalá,Ciencias Sociales-Jurídicas,6.252
+0467,Magisterio de Educación Primaria (bilingüe) (docencia en inglés) (Guadalajara),8.591,Universidad de Alcalá,Ciencias Sociales-Jurídicas,6.136
+0469,Magisterio de Educación Primaria (Guadalajara),9.528,Universidad de Alcalá,Ciencias Sociales-Jurídicas,6.806
+0470,Turismo (Guadalajara),5.0,Universidad de Alcalá,Ciencias Sociales-Jurídicas,5.0
+0442,Arquitectura Técnica y Edificación (Guadalajara),8.464,Universidad de Alcalá,Tecnológico-Ingenierías,6.046
+0440,Fundamentos de Arquitectura y Urbanismo,10.725,Universidad de Alcalá,Tecnológico-Ingenierías,7.661
+0441,Ingeniería de Computadores,9.186,Universidad de Alcalá,Tecnológico-Ingenierías,6.561
+0444,Ingeniería Electrónica de Comunicaciones,8.07,Universidad de Alcalá,Tecnológico-Ingenierías,5.764
+0443,Ingeniería Electrónica y Automática Industrial,10.186,Universidad de Alcalá,Tecnológico-Ingenierías,7.276
+0449,Ingeniería en Sistemas de Información,8.9,Universidad de Alcalá,Tecnológico-Ingenierías,6.357
+0451,Ingeniería en Sistemas de Telecomunicación,8.271,Universidad de Alcalá,Tecnológico-Ingenierías,5.908
+0450,Ingeniería en Tecnologías de Telecomunicación,7.93,Universidad de Alcalá,Tecnológico-Ingenierías,5.664
+0446,Ingeniería de Telecomunicaciones,10.075,Universidad de Alcalá,Tecnológico-Ingenierías,7.196
+0452,Ingeniería en Tecnologías Industriales,10.613,Universidad de Alcalá,Tecnológico-Ingenierías,7.581
+0453,Ingeniería en Tecnologías Industriales + Master Universitario en Ingeniería Industrial,11.539,Universidad de Alcalá,Tecnológico-Ingenierías,8.242
+0454,Ingeniería Informática,10.886,Universidad de Alcalá,Tecnológico-Ingenierías,7.776
+0448,Ingeniería Telemática,8.014,Universidad de Alcalá,Tecnológico-Ingenierías,5.724
+0439,Matemáticas y Computación (Guadalajara),11.349,Universidad de Alcalá,Ciencias,8.106
+0480,Derecho - Administración y Dirección de Empresas,11.011,Universidad de Alcalá,Ciencias Sociales-Jurídicas,7.865
+0482,Humanidades - Magisterio en Educación Primaria,10.54,Universidad de Alcalá,Ciencias Sociales-Jurídicas,7.529
+0484,Ingeniería Informática - Administración y Dirección de Empresas,11.427,Universidad de Alcalá,Tecnológico-Ingenierías,8.162
+0485,Ingeniería Electrónica de Comunicaciones - Ing. Electrónica y Automática Industrial,9.591,Universidad de Alcalá,Tecnológico-Ingenierías,6.851
+0483,Magisterio de Educación Infantil - Magisterio de Educación Primaria (Guadalajara),10.753,Universidad de Alcalá,Ciencias Sociales-Jurídicas,7.681
+0481,Turismo - Admón. y Dirección de Empresas (Guadalajara),7.516,Universidad de Alcalá,Ciencias Sociales-Jurídicas,5.369
+0490,Educación Social,5.0,Centro Universitario Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0491,Magisterio de Educación Infantil,5.0,Centro Universitario Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0492,Magisterio de Educación Infantil (bilingüe) (docencia en inglés),5.0,Centro Universitario Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0495,Magisterio de Educación Infantil (semipresencial),5.0,Centro Universitario Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0493,Magisterio de Educación Primaria,8.141,Centro Universitario Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.815
+0494,Magisterio de Educación Primaria (bilingüe) (docencia en inglés),5.0,Centro Universitario Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0496,Magisterio de Educación Primaria (Semipresencial),5.0,Centro Universitario Cardenal Cisneros,Ciencias Sociales-Jurídicas,5.0
+0497,Psicología,9.814,Centro Universitario Cardenal Cisneros,Biosanitario,7.01
+0502,Estudios Culturales (bilingüe),5.0,Universidad Carlos III de Madrid,Humanidades y Artes,5.0
+0500,Humanidades,5.0,Universidad Carlos III de Madrid,Humanidades y Artes,5.0
+0535,Neurociencia (en inglés),13.184,Universidad Carlos III de Madrid,Biosanitario,9.417
+0540,Administración de Empresas (español o inglés),12.066,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,8.619
+0541,Administración de Empresas (Colmenarejo),11.405,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,8.146
+0542,Ciencias Políticas (español o bilingüe),9.86,Universidad Carlos III de Madrid,Ciencias,7.043
+0543,Comunicación Audiovisual (español o bilingüe),10.951,Universidad Carlos III de Madrid,Humanidades y Artes,7.822
+0544,Derecho,11.975,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,8.554
+0545,Derecho (Colmenarejo),11.237,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,8.026
+0546,Economía (español o inglés),11.647,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,8.319
+0558,Empresa y Tecnología (en inglés),12.71,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,9.079
+0547,Estadística y Empresa,11.733,Universidad Carlos III de Madrid,Ciencias,8.381
+0555,Estudios Internacionales (en inglés),12.7,Universidad Carlos III de Madrid,Humanidades y Artes,9.071
+0548,Finanzas y Contabilidad (español o inglés),11.469,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,8.192
+0557,Gestión de la Información y Contenidos Digitales,10.639,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,7.599
+0559,Historia y Política (bilingüe),9.974,Universidad Carlos III de Madrid,Humanidades y Artes,7.124
+0551,Periodismo (español o bilingüe),9.5,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,6.786
+0552,Relaciones Laborales y Empleo,8.889,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,6.349
+0553,Sociología (español o bilingüe),7.466,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,5.333
+0554,Turismo,7.403,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,5.288
+0524,Ciencia e Ingeniería de Datos (en inglés),11.458,Universidad Carlos III de Madrid,Ciencias,8.184
+0510,Ingeniería Aeroespacial (en inglés),13.3,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,9.5
+0511,Ingeniería Biomédica (en inglés),12.825,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,9.161
+0518,Ingeniería de Comunicaciones Móviles y Espaciales (español o bilingüe),10.3,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,7.357
+0522,Ingeniería de la Energía (en inglés),11.606,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,8.29
+0517,Ingeniería de Sonido e Imagen (español o bilingüe),9.566,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,6.833
+0512,Ingeniería Eléctrica (español o bilingüe),10.887,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,7.776
+0513,Ingeniería Electrónica Industrial y Automática (español o bilingüe),10.839,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,7.742
+0520,Ingeniería en Tecnologías de Telecomunicación (español o bilingüe),10.764,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,7.689
+0519,Ingeniería en Tecnologías Industriales (español o bilingüe),11.891,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,8.494
+0525,Ingeniería Física (en inglés),13.188,Universidad Carlos III de Madrid,Ciencias,9.42
+0514,"Ingeniería Informática (español, bilingüe o inglés)",10.98,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,7.843
+0515,Ingeniería Informática (Colmenarejo),10.586,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,7.561
+0516,Ingeniería Mecánica (español o bilingüe),11.678,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,8.341
+0527,Ingeniería Robótica (en inglés),11.964,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,8.546
+0521,Ingeniería Telemática (español o bilingüe),9.936,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,7.097
+0526,Matemática Aplicada y Computación (en inglés),12.641,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,9.029
+0597,Programa Académico de Ingeniería Informática vía Grado en Ing. Informática (bilingüe),11.839,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,8.456
+0598,Programa Académico de Ingeniería de Telecomunicación vía Grado en Ing. en Tecnologías de Telecomunicación (bilingüe),12.45,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,8.893
+0599,Programa Académico de Ingeniería Industrial vía Grado en Ing. en Tecnologías Industriales (bilingüe-español),13.259,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,9.471
+0570,Ciencias Políticas y Sociología,8.764,Universidad Carlos III de Madrid,Ciencias,6.26
+0583,Ciencia e Ingeniería de Datos e Ingeniería en Tecnologías de Telecomunicación (bilingüe),12.052,Universidad Carlos III de Madrid,Ciencias,8.609
+0571,Derecho y Administración de Empresas (español o bilingüe),13.036,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,9.311
+0572,Derecho y Administración de Empresas (Colmenarejo),11.837,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,8.455
+0573,Derecho y Ciencias Políticas,11.8,Universidad Carlos III de Madrid,Ciencias,8.429
+0574,Derecho y Economía (español o bilingüe),12.739,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,9.099
+0578,Estudios Internacionales y Administración de Empresas (en inglés),13.363,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,9.545
+0579,Estudios Internacionales y Ciencias Políticas (bilingüe),12.964,Universidad Carlos III de Madrid,Ciencias,9.26
+0581,Estudios Internacionales y Derecho (bilingüe),13.425,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,9.589
+0582,Estudios Internacionales y Economía (en inglés),13.132,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,9.38
+0584,Ingeniería Física e Ingeniería en Tecnologías Industriales (bilingüe),13.288,Universidad Carlos III de Madrid,Ciencias,9.491
+0576,Ingeniería Informática y Administración de Empresas (Colmenarejo),11.797,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,8.426
+0585,Ingeniería Informática y Administración de Empresas (Leganes-Getafe),12.397,Universidad Carlos III de Madrid,Tecnológico-Ingenierías,8.855
+0575,Periodismo y Comunicación Audiovisual (español o bilingüe),11.728,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,8.377
+0577,Periodismo y Humanidades,7.999,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,5.714
+0591,"Ciencia, Tecnología y Humanidades (UAB, UAM y UC3M)",5.0,Universidad Carlos III de Madrid,Ciencias,5.0
+0590,"Ciencias (UAB, UAM y UC3M)",9.539,Universidad Carlos III de Madrid,Ciencias,6.814
+0580,"Filosofía, Política y Economía (bilingüe) (UAB, UAM, UC3M y UPF)",12.764,Universidad Carlos III de Madrid,Ciencias Sociales-Jurídicas,9.117
+0330,Ciencias Agrarias y Bioeconomía,6.053,Universidad Politécnica de Madrid,Ciencias,5.0
+0345,Matemáticas,12.085,Universidad Politécnica de Madrid,Ciencias,8.632
+0350,Ciencias de la Actividad Física y del Deporte (INEF),9.439,Universidad Politécnica de Madrid,Ciencias,6.742
+0381,Arquitecto/a (PARS),12.9,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,9.214
+0325,Arquitectura Naval / Ingeniería Marítima,10.55,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.536
+0333,Biotecnología,12.925,Universidad Politécnica de Madrid,Ciencias,9.232
+0343,Ciencia de Datos e Inteligencia Artificial (Campus de Montegancedo),11.736,Universidad Politécnica de Madrid,Ciencias,8.383
+0344,Ciencia de Datos e Inteligencia Artificial (Campus Sur),12.025,Universidad Politécnica de Madrid,Ciencias,8.589
+0308,Edificación,7.27,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.193
+0300,Fundamentos de la Arquitectura,11.336,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.097
+0338,Gestión y Operaciones del Transporte Aéreo,11.514,Universidad Politécnica de Madrid,Ciencias Sociales-Jurídicas,8.224
+0301,Ingeniería Aeroespacial,12.425,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.875
+0389,Ingeniero/a Aeronáutico/a (PARS),13.178,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,9.413
+0302,Ingeniería Agrícola,8.978,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.413
+0378,Ingeniero/a Agrónomo/a (PARS),11.203,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.002
+0303,Ingeniería Agroambiental,5.0,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.0
+0304,Ingeniería Alimentaria,6.255,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.0
+0334,Ingeniería Biomédica,12.704,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,9.074
+0388,Ingeniero/a Biomédico/a (PARS),13.184,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,9.417
+0306,Ingeniería Civil y Territorial,9.85,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.036
+0346,Ingeniería Civil y Territorial (Retiro),9.286,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.633
+0375,"Ingeniero/a de Caminos, Canales y Puertos (PARS)",11.614,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.296
+0307,Ingeniería de Computadores,9.539,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.814
+0309,Ingeniería de la Energía,11.069,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.906
+0339,Ingeniería de las Tecnologías de la Información Geoespacial,6.886,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.0
+0310,Ingeniería de Materiales,9.136,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.526
+0385,Ingeniero/a de Materiales (PARS),10.113,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.224
+0380,Ingeniero/a de Minas (PARS),10.103,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.216
+0371,Ingeniero/a de Montes (PARS),8.603,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.145
+0336,Ingeniería de Organización,12.483,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.916
+0311,Ingeniería de Sistemas de Telecomunicación,9.103,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.502
+0312,Ingeniería de Sonido e Imagen,7.726,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.519
+0313,Ingeniería de Tecnologías y Servicios de Telecomunicación,9.28,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.629
+0377,Ingeniero/a de Telecomunicación (PARS),11.688,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.349
+0314,Ingeniería del Medio Natural,5.0,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.0
+0315,Ingeniería del Software,10.125,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.232
+0372,Ingeniero/a del Software (PARS),11.675,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.339
+0316,Ingeniería Eléctrica,10.415,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.439
+0317,Ingeniería Electrónica de Comunicaciones,8.564,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.117
+0318,Ingeniería Electrónica Industrial y Automática,10.825,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.732
+0319,Ingeniería en Diseño Industrial y Desarrollo de Producto,12.414,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.867
+0373,Ingeniero/a Sistemas Informáticos Distribuidos y Embebidos (PARS),9.114,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.51
+0320,"Ingeniería en Tecnología Minera / Ing. Geológica / Ing. Mineralúrgica y Metalúrgica de las Materias Primas / Ing. en Recursos Energéticos, Combustibles y Explosivos",8.114,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.796
+0347,Ingeniería en Tecnologías Aeroespaciales,12.275,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.768
+0337,Ingeniería en Tecnologías Ambientales,5.0,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.0
+0321,Ingeniería en Tecnologías Industriales,11.978,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.556
+0322,Ingeniería Forestal,5.0,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.0
+0323,Ingeniería Geomática,5.0,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.0
+0386,Ingeniero/a Industrial (PARS),13.328,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,9.52
+0324,Ingeniería Informática,10.311,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.365
+0376,Ingeniero/a Informática (PARS),11.675,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.339
+0326,Ingeniería Mecánica,11.875,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.482
+0387,Ingeniero/a Naval y Oceánica (PARS),11.886,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.49
+0327,Ingeniería Química (Castellana),11.749,Universidad Politécnica de Madrid,Ciencias,8.392
+0328,Ingeniería Química (Embajadores),11.053,Universidad Politécnica de Madrid,Ciencias,7.895
+0329,Ingeniería Telemática,8.902,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.359
+0341,Ingeniería y Sistemas de datos (Campus Moncloa),11.41,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.15
+0331,Matemáticas e Informática,11.714,Universidad Politécnica de Madrid,Ciencias,8.367
+0335,Sistemas de Información,9.25,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.607
+0332,Tecnologías para la Sociedad de la Información,8.75,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.25
+0361,Edificación - Administración y Dirección de Empresas,8.261,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.901
+0366,Ingeniería Civil y Territorial - Administración y Dirección de Empresas,10.9,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,7.786
+0362,Ingeniería Eléctrica - Ingeniería Electrónica Industrial y Automática,11.514,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.224
+0367,Ingeniería Electrónica de Comunicaciones - Ingeniería Telemática,8.872,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.337
+0360,Ingeniería en Diseño Industrial y Desarrollo de Producto - Ingeniería Mecánica,12.896,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,9.211
+0369,Ingeniería Geomática e Ingeniería de las Tecnologías de la Información Geoespacial (Campus Sur),5.0,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,5.0
+0365,Ingeniería Informática - Administración y Dirección de Empresas,11.809,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,8.435
+0359,Ingeniería y Sistemas de Datos e Ingeniería Telemática (Campus Sur),8.628,Universidad Politécnica de Madrid,Tecnológico-Ingenierías,6.163
+0368,Diseño de Moda (UPM) y Comercio (UCM),5.0,Universidad Politécnica de Madrid,Ciencias Sociales-Jurídicas,5.0
+0340,Diseño de Moda,5.0,Centro Superior de Diseño de Moda,Humanidades y Artes,5.0
+0600,Artes Visuales y Danza (Fuenlabrada),5.0,Universidad Rey Juan Carlos,Humanidades y Artes,5.0
+0802,Bellas Artes (Aranjuez),9.414,Universidad Rey Juan Carlos,Humanidades y Artes,6.724
+0806,Diseño Integral y Gestión de la Imagen (Aranjuez),10.825,Universidad Rey Juan Carlos,Humanidades y Artes,7.732
+0884,Diseño Integral y Gestión de la Imagen (Madrid),11.884,Universidad Rey Juan Carlos,Humanidades y Artes,8.489
+0601,Diseño y Gestión de Moda (Aranjuez),10.544,Universidad Rey Juan Carlos,Humanidades y Artes,7.531
+0908,Filosofía (Fuenlabrada),6.417,Universidad Rey Juan Carlos,Humanidades y Artes,5.0
+0720,Historia (Fuenlabrada),5.0,Universidad Rey Juan Carlos,Humanidades y Artes,5.0
+0721,Lengua y Literatura Española (Fuenlabrada),5.0,Universidad Rey Juan Carlos,Humanidades y Artes,5.0
+0722,Paisajismo (Fuenlabrada),6.613,Universidad Rey Juan Carlos,Humanidades y Artes,5.0
+0833,Traducción e Interpretación (Aranjuez),5.0,Universidad Rey Juan Carlos,Humanidades y Artes,5.0
+0885,Traducción e Interpretación (Móstoles),5.0,Universidad Rey Juan Carlos,Humanidades y Artes,5.0
+0610,Biología (Móstoles),10.028,Universidad Rey Juan Carlos,Ciencias,7.163
+0611,Ciencia y Tecnología de los Alimentos (Móstoles),7.69,Universidad Rey Juan Carlos,Ciencias,5.493
+0612,Ciencias Ambientales (Móstoles),6.139,Universidad Rey Juan Carlos,Ciencias,5.0
+0613,Ciencias Experimentales (Móstoles),7.324,Universidad Rey Juan Carlos,Ciencias,5.231
+0830,Matemáticas (Móstoles),11.811,Universidad Rey Juan Carlos,Ciencias,8.436
+0907,Nanociencia y Nanotecnología (Móstoles),11.636,Universidad Rey Juan Carlos,Ciencias,8.311
+0935,Recursos Hídricos (Móstoles),5.0,Universidad Rey Juan Carlos,Ciencias,5.0
+0620,Enfermería (Alcorcón),11.85,Universidad Rey Juan Carlos,Biosanitario,8.464
+0932,Farmacia (Alcorcón),12.0,Universidad Rey Juan Carlos,Biosanitario,8.571
+0621,Fisioterapia (Alcorcón),11.214,Universidad Rey Juan Carlos,Biosanitario,8.01
+0622,Medicina (Alcorcón),13.082,Universidad Rey Juan Carlos,Biosanitario,9.344
+0623,Odontología (Alcorcón),12.734,Universidad Rey Juan Carlos,Biosanitario,9.096
+0624,Psicología (Alcorcón),10.61,Universidad Rey Juan Carlos,Biosanitario,7.579
+0625,Terapia Ocupacional (Alcorcón),9.35,Universidad Rey Juan Carlos,Biosanitario,6.679
+0835,Ciencia e Ingeniería de Datos (Fuenlabrada),10.539,Universidad Rey Juan Carlos,Ciencias,7.528
+0886,Diseño y Desarrollo de Videojuegos (Madrid),10.214,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.296
+0815,Diseño y Desarrollo de Videojuegos (Móstoles),9.967,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.119
+0643,Fundamentos de la Arquitectura (Fuenlabrada),10.553,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.538
+0647,Ingeniería Aeroespacial en Aeronavegación (Fuenlabrada),12.054,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.61
+0933,Ingeniería Aeroespacial en Transporte y Aeropuertos (Fuenlabrada),11.93,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.521
+0912,Ingeniería Aeroespacial en Vehículos Aeroespaciales (Fuenlabrada),12.242,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.744
+0630,Ingeniería Ambiental (Móstoles),8.315,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,5.939
+0834,Ingeniería Biomédica (Fuenlabrada),12.511,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.936
+0913,Ingeniería Biomédica (inglés) (Fuenlabrada),12.186,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.704
+0631,Ingeniería de Computadores (Móstoles),9.428,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,6.734
+0921,Ingeniería de la Ciberseguridad (Móstoles),10.853,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.752
+0633,Ingeniería de la Energía (Móstoles),10.5,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.5
+0643,Ingeniería de Materiales (Móstoles),9.064,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,6.474
+0922,Ingeniería de Robótica Software (Fuenlabrada),10.436,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.454
+0646,Ingeniería de Tecnologías Industriales (Móstoles),10.964,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.831
+0632,Ingeniería del Software (Móstoles),10.09,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.207
+0934,Ingeniería Electrónica Industrial y Automática (Móstoles),10.164,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.26
+0648,Ingeniería en Organización Industrial (Móstoles),11.225,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.018
+0645,Ingeniería en Organización Industrial (Vicálvaro),11.108,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.934
+0635,Ingeniería en Sistemas Audiovisuales y Multimedia (Fuenlabrada),7.65,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,5.464
+0636,Ingeniería en Sistemas de Telecomunicación (Fuenlabrada),9.203,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,6.574
+0637,Ingeniería en Tecnologías de la Telecomunicación (Fuenlabrada),9.587,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,6.848
+0638,Ingeniería en Telemática (Fuenlabrada),8.914,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,6.367
+0639,Ingeniería Informática (Móstoles),10.655,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.611
+0640,Ingeniería Informática (Vicálvaro),10.278,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.341
+0914,Ingeniería Mecánica (Móstoles),11.23,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.021
+0642,Ingeniería Química (Móstoles),10.639,Universidad Rey Juan Carlos,Ciencias,7.599
+0866,Inteligencia Artificial (Móstoles),10.4,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.429
+0660,Administración y Dirección de Empresas (Fuenlabrada),9.7,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.929
+0661,Administración y Dirección de Empresas (Inglés) (Vicálvaro),9.092,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.494
+0662,Administración y Dirección de Empresas (Móstoles),9.414,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.724
+0663,Administración y Dirección de Empresas (Vicálvaro),9.4,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.714
+0664,Administración y Dirección de Empresas A Distancia (Vicálvaro),9.0,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.429
+0812,Ciencia Política y Gestión Pública (Fuenlabrada),5.0,Universidad Rey Juan Carlos,Ciencias,5.0
+0665,Ciencia Política y Gestión Pública (Vicálvaro),5.865,Universidad Rey Juan Carlos,Ciencias,5.0
+0813,"Ciencia, Gestión e Ingeniería de Servicios (Madrid)",8.574,Universidad Rey Juan Carlos,Ciencias,6.124
+0845,"Ciencia, Gestión e Ingeniería de Servicios (Semipresencial) (Vicálvaro)",8.014,Universidad Rey Juan Carlos,Ciencias,5.724
+0893,Ciencias de la Actividad Física y del Deporte (Fuenlabrada),11.073,Universidad Rey Juan Carlos,Ciencias,7.909
+0667,Comunicación Audiovisual (Fuenlabrada),9.264,Universidad Rey Juan Carlos,Humanidades y Artes,6.617
+0668,Comunicación Audiovisual (Vicálvaro),9.65,Universidad Rey Juan Carlos,Humanidades y Artes,6.893
+0946,Comunicación Digital (Fuenlabrada),9.39,Universidad Rey Juan Carlos,Humanidades y Artes,6.707
+0761,Contabilidad y Finanzas (Fuenlabrada),8.68,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.2
+0707,Contabilidad y Finanzas (Móstoles),8.949,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.392
+0895,Contabilidad y Finanzas (A Distancia) (Vicálvaro),8.0,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.714
+0702,Contabilidad y Finanzas (Vicálvaro),9.15,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.536
+0708,Criminología (Alcorcón),10.803,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.716
+0669,Criminología (Vicálvaro),11.068,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.906
+0670,Derecho (Fuenlabrada),10.089,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.206
+0671,Derecho (Móstoles),9.434,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.739
+0672,Derecho (Vicálvaro),9.378,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.699
+0673,Derecho (Semipresencial) (Vicálvaro),8.27,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.907
+0898,Dirección y Gestión de Empresas en el Ámbito Digital (Vicálvaro),10.711,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.651
+0674,Economía (Fuenlabrada),9.2,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.571
+0849,Economía (Inglés) (Madrid),5.189,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.0
+0899,Economía (Móstoles),9.991,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.136
+0675,Economía (Vicálvaro),9.265,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.618
+0900,Economía Financiera y Actuarial (Móstoles),8.828,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.306
+0676,Economía Financiera y Actuarial (Vicálvaro),9.512,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.794
+0678,Educación Infantil (Fuenlabrada),9.21,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.579
+0829,Educación Infantil (Inglés) (Vicálvaro),5.0,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.0
+0872,"ADE (A distancia) (Vicálvaro) - Ciencia, Gestión e Ingeniería de Servicios (Presencial) (Madrid)",9.304,Universidad Rey Juan Carlos,Ciencias,6.646
+0871,"ADE (Presencial) - Ciencia, Gestión e Ingeniería de Servicios (Semipresencial) (Vicálvaro)",10.686,Universidad Rey Juan Carlos,Ciencias,7.633
+0887,Administración y Dirección de Empresas - Derecho (Fuenlabrada),9.5,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.786
+0873,Administración y Dirección de Empresas - Derecho (Madrid),10.114,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.224
+0710,Administración y Dirección de Empresas - Derecho (Móstoles),9.375,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.696
+0712,Administración y Dirección de Empresas - Derecho (Vicálvaro),10.211,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.294
+0890,Administración y Dirección de Empresas - Marketing (Vicálvaro),12.486,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.919
+0856,Bellas Artes - Diseño Integral y Gestión de la Imagen (Aranjuez),12.478,Universidad Rey Juan Carlos,Humanidades y Artes,8.913
+0855,Bellas Artes (Presencial) (Aranjuez) - Turismo (Semipresencial) (Vicálvaro),8.314,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.939
+0820,Ciencia Política y Gestión Pública - Derecho (Fuenlabrada),10.186,Universidad Rey Juan Carlos,Ciencias,7.276
+0714,Ciencia Política y Gestión Pública - Derecho (Vicálvaro),9.975,Universidad Rey Juan Carlos,Ciencias,7.125
+0816,Ciencia Política y Gestión Pública - Economía (Fuenlabrada),7.9,Universidad Rey Juan Carlos,Ciencias,5.643
+0739,Ciencia Política y Gestión Pública - Economía (Vicálvaro),9.936,Universidad Rey Juan Carlos,Ciencias,7.097
+0817,Ciencia Política y Gestión Pública - Periodismo (Fuenlabrada),6.919,Universidad Rey Juan Carlos,Ciencias,5.0
+0740,Ciencia Política y Gestión Pública - Periodismo (Vicálvaro),9.994,Universidad Rey Juan Carlos,Ciencias,7.139
+0868,"Ciencia, Gestión e Ingeniería de Servicios (Semipresencial) - Ingeniería en Organización Industrial (Presencial) (Vicálvaro)",10.5,Universidad Rey Juan Carlos,Ciencias,7.5
+0874,"Ciencia, Gestión e Ingeniería de Servicios (Semipresencial) - Marketing (Presencial) (Vicálvaro)",10.403,Universidad Rey Juan Carlos,Ciencias,7.431
+0875,"Ciencia, Gestión e Ingeniería de Servicios (Semipresencial) - Turismo (Presencial) (Vicálvaro)",6.164,Universidad Rey Juan Carlos,Ciencias,5.0
+0894,Ciencias de la Actividad Física y del Deporte (Presencial) (Fuenlabrada) - Educación Primaria Mención Educación Física (Semipresencial) (Vicálvaro),11.98,Universidad Rey Juan Carlos,Ciencias,8.557
+0713,Comunicación Audiovisual - ADE (Fuenlabrada),9.568,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.834
+0742,Contabilidad y Finanzas - Relaciones Laborales y RR.HH. (Vicálvaro),9.8,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.0
+0743,Criminología - Derecho (Vicálvaro),12.852,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,9.18
+0869,Criminología - Ingeniería Informática (Vicálvaro),11.45,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.179
+0819,Criminología - Psicología (Alcorcón),12.855,Universidad Rey Juan Carlos,Biosanitario,9.182
+0876,Criminología - Trabajo Social (Alcorcón),12.553,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.966
+0715,Derecho - Periodismo (Vicálvaro),12.075,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.625
+0821,Derecho - Relaciones Internacionales (Fuenlabrada),13.554,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,9.681
+0944,Derecho - Relaciones Internacionales (Inglés) (Vicálvaro),13.428,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,9.591
+0716,Derecho - Relaciones Laborales y Recursos Humanos (Vicálvaro),9.653,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.895
+0877,Derecho (Semipresencial) - Relac. Internac. (Inglés) (Presencial) (Vicálvaro),12.966,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,9.261
+0882,Diseño y Desarrollo de Videojuegos - Ing. de Computadores (Móstoles),10.068,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.191
+0885,Diseño y Desarrollo de Videojuegos - Ingeniería de Datos (Móstoles),11.464,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.189
+0886,Diseño y Desarrollo de Videojuegos - Diseño Integral y Gest de la Imagen (Aranjuez),11.85,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.464
+0717,Economía - Derecho (Fuenlabrada),12.086,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.633
+0903,Economía - Derecho (Móstoles),11.7,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.357
+0718,Economía - Derecho (Vicálvaro),12.19,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.707
+0859,Economía - Historia (Fuenlabrada),10.765,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.689
+0824,Economía - Matemáticas (Móstoles),12.764,Universidad Rey Juan Carlos,Ciencias,9.117
+0719,Economía - Periodismo (Vicálvaro),11.264,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.046
+0901,Economía Financiera y Actuarial - ADE (Móstoles),11.461,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.186
+0745,Economía Financiera y Actuarial - ADE (Vicálvaro),11.986,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.561
+0902,Economía Financiera y Actuarial - Economía (Móstoles),10.889,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.778
+0746,Economía Financiera y Actuarial - Economía (Vicálvaro),11.553,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.252
+0823,Educación Infantil - Educación Primaria (Fuenlabrada),12.225,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.732
+0905,Filosofía - Ciencia Política y Gestión Pública (Fuenlabrada),5.375,Universidad Rey Juan Carlos,Ciencias,5.0
+0906,Filosofía - Economía (Fuenlabrada),11.323,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.088
+0861,Fundamentos de la Arquitectura - Paisajismo (Fuenlabrada),10.543,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.531
+0865,Historia - Turismo (Fuenlabrada),5.0,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.0
+0947,Historia (Presencial) (Fuenlabrada) - Turismo (Semipresencial) (Vicálvaro),5.0,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.0
+0747,Ingeniería Ambiental - Ingeniería en Organización Industrial (Móstoles),9.861,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.044
+0723,Ingeniería de la Energía - Ingeniería Ambiental (Móstoles),10.214,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.296
+0748,Ingeniería de la Energía - Ingeniería en Organización Industrial (Móstoles),11.207,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.005
+0724,Ingeniería de Materiales - Ingeniería de la Energía (Móstoles),9.911,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.079
+0749,Ingeniería de Materiales - Ingeniería en Organización Industrial (Móstoles),10.203,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.288
+0726,Ingeniería del Software - Matemáticas (Móstoles),12.8,Universidad Rey Juan Carlos,Ciencias,9.143
+0779,Ingeniería en Tecnología de Telecomunicación - Ingeniería Aeroespacial en Aeronavegación (Fuenlabrada),12.602,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,9.001
+0730,Ingeniería Informática - ADE (Móstoles),11.575,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.268
+0727,Ingeniería Informática - Ingeniería de Computadores (Móstoles),10.575,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.554
+0728,Ingeniería Informática - Ingeniería del Software (Móstoles),11.386,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,8.133
+0729,Ingeniería Informática - Matemáticas (Móstoles),13.148,Universidad Rey Juan Carlos,Ciencias,9.391
+0870,Ingeniería Informática (Presencial) - Administración y Dirección de Empresas (A distancia) (Vicálvaro),10.989,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.849
+0756,Ingeniería Química - Ingeniería en Organización Industrial (Móstoles),11.233,Universidad Rey Juan Carlos,Ciencias,8.024
+0732,Ingeniería Química - Ingeniería Ambiental (Móstoles),10.561,Universidad Rey Juan Carlos,Ciencias,7.544
+0733,Ingeniería Química - Ingeniería de la Energía (Móstoles),10.949,Universidad Rey Juan Carlos,Ciencias,7.821
+0725,Ingeniería Sistemas de Telecomunicación - ADE (Fuenlabrada),10.975,Universidad Rey Juan Carlos,Tecnológico-Ingenierías,7.839
+0915,Lengua de Signos Española y Comunidad Sorda - Terapia Ocupacional (Alcorcón),10.164,Universidad Rey Juan Carlos,Biosanitario,7.26
+0880,Lengua de Signos Española y Comunidad Sorda - Trabajo Social (Alcorcón),8.414,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.01
+0879,Lengua de Signos Española y Comunidad Sorda (Presencial) (Alcorcón) - Educación Primaria (Semipresencial) (Vicálvaro),9.14,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.529
+0734,Periodismo - Comunicación Audiovisual (Fuenlabrada),9.787,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,6.991
+0735,Periodismo - Comunicación Audiovisual (Vicálvaro),10.223,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.302
+0736,Publicidad y Relaciones Públicas - ADE (Fuenlabrada),11.636,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.311
+0737,Publicidad y Relaciones Públicas - Marketing (Fuenlabrada),13.089,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,9.349
+0825,Relaciones Internacionales - Ciencia Política y Gestión Pública (Fuenlabrada),12.688,Universidad Rey Juan Carlos,Ciencias,9.063
+0778,Relaciones Internacionales - Economía (Fuenlabrada),12.267,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,8.762
+0774,Relaciones Internacionales - Periodismo (Fuenlabrada),12.801,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,9.144
+0836,"Relaciones Internacionales (inglés) - Protocolo, Organización de Eventos y Comunicación Corporativa (Vicálvaro)",13.127,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,9.376
+0881,Relaciones Laborales y RR.HH - Trabajo Social (Alcorcón),9.928,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.091
+0738,Turismo - Administración y Dirección de Empresas (Fuenlabrada),8.261,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.901
+0739,Turismo - Administración y Dirección de Empresas (Vicálvaro),8.07,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.764
+0936,Turismo - Marketing (Vicálvaro),10.728,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,7.663
+0948,Turismo (Semipresencial) - Marketing (Presencial) (Vicálvaro),8.375,Universidad Rey Juan Carlos,Ciencias Sociales-Jurídicas,5.982
+0750,Administración y Dirección de Empresas,5.0,CES Escuela Superior Empresarial Relaciones Públicas-ESERP,Ciencias Sociales-Jurídicas,5.0
+0888,Administración y Dirección de Empresas - Derecho,5.0,CES Escuela Superior Empresarial Relaciones Públicas-ESERP,Ciencias Sociales-Jurídicas,5.0
+0795,Criminología,5.0,CES Escuela Superior Empresarial Relaciones Públicas-ESERP,Ciencias Sociales-Jurídicas,5.0
+0889,Criminología - Derecho,5.0,CES Escuela Superior Empresarial Relaciones Públicas-ESERP,Ciencias Sociales-Jurídicas,5.0
+0846,Derecho,5.0,CES Escuela Superior Empresarial Relaciones Públicas-ESERP,Ciencias Sociales-Jurídicas,5.0
+0941,Educación Infantil,5.0,CES Escuela Superior Empresarial Relaciones Públicas-ESERP,Ciencias Sociales-Jurídicas,5.0
+0752,Marketing,5.0,CES Escuela Superior Empresarial Relaciones Públicas-ESERP,Ciencias Sociales-Jurídicas,5.0
+0790,Artes Escénicas - Interpretación Audiovisual,5.0,Escuela Superior de Artes Escénicas y Espectáculos-TAI,Humanidades y Artes,5.0
+0929,Artes Escénicas e Interpretación Audiovisual (inglés),5.0,Escuela Superior de Artes Escénicas y Espectáculos-TAI,Humanidades y Artes,5.0
+0792,Bellas Artes,5.0,Escuela Superior de Artes Escénicas y Espectáculos-TAI,Humanidades y Artes,5.0
+0793,Cinematografía,5.0,Escuela Superior de Artes Escénicas y Espectáculos-TAI,Humanidades y Artes,5.0
+0945,Cinematografía (inglés),5.0,Escuela Superior de Artes Escénicas y Espectáculos-TAI,Humanidades y Artes,5.0
+0937,Composición Musical,5.0,Escuela Superior de Artes Escénicas y Espectáculos-TAI,Humanidades y Artes,5.0
+0930,Composición Musical (inglés),5.0,Escuela Superior de Artes Escénicas y Espectáculos-TAI,Humanidades y Artes,5.0
+0939,Fotografía y Creación Audiovisual,5.0,Escuela Superior de Artes Escénicas y Espectáculos-TAI,Humanidades y Artes,5.0
+0796,Administración y Dirección de Empresas,5.0,CES IEB,Ciencias Sociales-Jurídicas,5.0
+0839,Administración y Dirección de Empresas,5.0,CEDEU,Ciencias Sociales-Jurídicas,5.0
+0840,Administración y Dirección de Empresas (A distancia),5.0,CEDEU,Ciencias Sociales-Jurídicas,5.0
+0841,Derecho,5.0,CEDEU,Ciencias Sociales-Jurídicas,5.0
+0842,Derecho (Semipresencial),5.0,CEDEU,Ciencias Sociales-Jurídicas,5.0
+0931,Marketing,5.0,CEDEU,Ciencias Sociales-Jurídicas,5.0
+0924,"Protocolo, Organización de Eventos y Comunicación Corporativa",5.0,CEDEU,Ciencias Sociales-Jurídicas,5.0
+0942,Administración y Dirección de Empresas,5.0,IUNIT,Ciencias Sociales-Jurídicas,5.0
+0943,Administración y Dirección de Empresas (A distancia),5.0,IUNIT,Ciencias Sociales-Jurídicas,5.0
