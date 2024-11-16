@@ -24,7 +24,7 @@ y_test = df_academico_test['Target']
 
 # CARGA DEL MODELO ENTRENADO
 
-with open('../04_models/final_model.pkl', 'rb') as f:
+with open('../04_models/other_models/02_no_supervisados/trained_model_clustering.pkl', 'rb') as f:
     modelo_importado = pickle.load(f)
 
 

@@ -1,12 +1,17 @@
 # IMPORTO LIBRERIAS
 
-from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import pickle
+
+
+# Cargar el modelo entrenado
+with open('../04_models/other_models/01_supervisados/trained_model_decision_tree_classifier.pkl', 'rb') as f:
+    modelo = pickle.load(f)
 
 
 # -------------------------------------------------------------------------
@@ -41,14 +46,14 @@ df_academico_train.head(1)
 
 # SEPARO TARGET PARA MI MEJOR MODELO DE PREDICCION
 
-X = df_academico_train.drop(columns=['Target'])  
+X = df_academico_train[["Tuition fees up to date", "Scholarship holder", "Curricular units 1st sem (enrolled)", "Curricular units 1st sem (approved)", "Curricular units 2nd sem (enrolled)", "Curricular units 2nd sem (approved)"]]  
 y = df_academico_train['Target']                 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 mi_mejor_modelo = Pipeline([
     ('scaler', StandardScaler()),
-    ('logreg', LogisticRegression(C=0.1, penalty='l1', solver='saga', random_state=42, max_iter = 1000))
+    ('svm', SVC(C=0.1, gamma='scale', kernel='linear', probability=True, max_iter=1000))    # SVC finalmente 
 ])
 
 # ENTRENAMIENTO DEL MODELO
@@ -68,9 +73,5 @@ print(classification_report(y_test, y_pred))
 # -------------------------------------------------------------------------
 # -------------------------------------------------------------------------
 
-# EXPORTO A PICKLE
 
-# Guardo mi modelo
-
-with open('../04_models/final_model_2.pkl', 'wb') as f:
-    pickle.dump(mi_mejor_modelo, f) 
+# python 02_training.py

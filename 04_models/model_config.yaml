@@ -1,0 +1,35 @@
+data:
+  input_features:
+  - Tuition fees up to date
+  - Scholarship holder
+  - Curricular units 1st sem (enrolled)
+  - Curricular units 1st sem (approved)
+  - Curricular units 2nd sem (enrolled)
+  - Curricular units 2nd sem (approved)
+  target_variable: Graduation Outcome
+hyperparameters:
+  scaler:
+    with_mean: true
+    with_std: true
+  svm:
+    C: 0.1
+    decision_function_shape: ovr
+    gamma: scale
+    kernel: linear
+    max_iter: 1000
+    probability: true
+    shrinking: true
+    tol: 0.001
+model:
+  library: scikit-learn
+  type: Support Vector Machine
+  version: 1.5.2
+pipeline:
+  steps:
+  - scaler: StandardScaler
+  - svm: SVC
+preprocessing:
+  details:
+    mean: StandardScaler (centering)
+    std: StandardScaler (scaling)
+  scaling: StandardScaler

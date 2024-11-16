@@ -9,6 +9,11 @@ import pandas as pd
 import pickle
 
 
+# Cargar el modelo entrenado
+with open('../04_models/other_models/01_supervisados/trained_model_gradient_boosting_classifier.pkl', 'rb') as f:
+    modelo = pickle.load(f)
+
+
 # -------------------------------------------------------------------------
 # -------------------------------------------------------------------------
 # -------------------------------------------------------------------------
@@ -67,13 +72,6 @@ print(classification_report(y_test, y_pred))
 # -------------------------------------------------------------------------
 # -------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-
-# EXPORTO A PICKLE
-
-# Guardo mi modelo
-
-with open('../04_models/final_model.pkl', 'wb') as f:
-    pickle.dump(mi_mejor_modelo, f) 
 
 
 # python 02_training.py
