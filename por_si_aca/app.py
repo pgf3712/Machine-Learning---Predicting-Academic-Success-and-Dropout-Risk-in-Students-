@@ -1,85 +1,143 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import matplotlib.pyplot as plt
+import os
+import base64
+import time
 
-# Cargar el modelo entrenado (incluye el escalador y el modelo de regresión logística)
-with open('../04_models/final_model_basico.pkl', 'rb') as f:  
+# Configuración del tema de la aplicación
+st.set_page_config(page_title="Calcula tu Futuro Académico", layout="wide")
+
+
+
+# LETRAS EN NEGRITA
+st.markdown("""
+    <style>
+    * {
+        font-weight: bold;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Función para convertir imagen a base64
+def get_base64(bin_file):
+    with open(bin_file, 'rb') as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+# Ruta de la imagen de fondo
+background_image_path = "../01_data/05_images/6.jpg"
+background_base64 = get_base64(background_image_path)
+
+# CSS para añadir fondo
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url("data:image/jpeg;base64,{background_base64}");
+        background-attachment: fixed;
+        background-size: cover;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Título principal
+st.title("🎓 Calcula tu Futuro Académico")
+
+# Cargar el DataFrame de notas de corte
+df_notas_corte = pd.read_csv("../01_data/02_processed/notas_corte_total.csv", sep=",")
+
+# Cargar el modelo entrenado
+with open('../04_models/final_model.pkl', 'rb') as f:
     modelo = pickle.load(f)
 
-# Título de la aplicación
-st.title("Predicción de Éxito Académico")
+# Tabs para organizar la interfaz
+tab1, tab2 = st.tabs(["📝 **Datos del Estudiante**", "📊 **Predicción y Resultados**"])
 
-# Crear entradas para los datos del usuario
-# daytime_evening_attendance = st.selectbox("Asistencia Diurna/Nocturna", ["Daytime", "Evening"])
-previous_qualification_grade = st.number_input("Nota Calificación Previa", min_value=0.0, max_value=10.0)
-mothers_qualification = st.selectbox("Calificación de la Madre", ["None", "High School", "Bachelor's", "Master's", "Other"])
-fathers_qualification = st.selectbox("Calificación del Padre", ["None", "High School", "Bachelor's", "Master's", "Other"])
-admission_grade = st.number_input("Nota de Admisión", min_value=0.0, max_value=10.0)
-educational_special_needs = st.selectbox("Necesidades Educativas Especiales", ["Yes", "No"])
-debtor = st.selectbox("Deudor", ["Yes", "No"])
-tuition_fees_up_to_date = st.selectbox("Pagos de Matrícula al Día", ["Yes", "No"])
-gender = st.selectbox("Género", ["Hombre", "Mujer"])
-scholarship_holder = st.selectbox("Becado", ["Yes", "No"])
-age_at_enrollment = st.number_input("Edad en el Momento de Inscripción", min_value=18, max_value=100)
-international = st.selectbox("Estudiante Internacional", ["Yes", "No"])
-curricular_units_1st_sem_credited = st.number_input("Unidades Curriculares 1er Semestre (Acreditadas)", min_value=0)
-curricular_units_1st_sem_enrolled = st.number_input("Unidades Curriculares 1er Semestre (Inscritas)", min_value=0)
-curricular_units_1st_sem_evaluations = st.number_input("Unidades Curriculares 1er Semestre (Evaluaciones)", min_value=0)
-curricular_units_1st_sem_approved = st.number_input("Unidades Curriculares 1er Semestre (Aprobadas)", min_value=0)
-curricular_units_1st_sem_grade = st.number_input("Nota Unidades Curriculares 1er Semestre", min_value=0.0, max_value=10.0)
-curricular_units_2nd_sem_credited = st.number_input("Unidades Curriculares 2do Semestre (Acreditadas)", min_value=0)
-curricular_units_2nd_sem_enrolled = st.number_input("Unidades Curriculares 2do Semestre (Inscritas)", min_value=0)
-curricular_units_2nd_sem_evaluations = st.number_input("Unidades Curriculares 2do Semestre (Evaluaciones)", min_value=0)
-curricular_units_2nd_sem_approved = st.number_input("Unidades Curriculares 2do Semestre (Aprobadas)", min_value=0)
-curricular_units_2nd_sem_grade = st.number_input("Nota Unidades Curriculares 2do Semestre", min_value=0.0, max_value=10.0)
+with tab1:
+    st.header("Datos Personales y Académicos")
 
-# Convertir variables categóricas a valores numéricos
-# daytime_evening_attendance = 0 if daytime_evening_attendance == "Daytime" else 1
-mothers_qualification = {"None": 0, "High School": 1, "Bachelor's": 2, "Master's": 3, "Other": 4}[mothers_qualification]
-fathers_qualification = {"None": 0, "High School": 1, "Bachelor's": 2, "Master's": 3, "Other": 4}[fathers_qualification]
-educational_special_needs = 1 if educational_special_needs == "Yes" else 0
-debtor = 1 if debtor == "Yes" else 0
-tuition_fees_up_to_date = 1 if tuition_fees_up_to_date == "Yes" else 0
-gender = 0 if gender == "Hombre" else 1
-scholarship_holder = 1 if scholarship_holder == "Yes" else 0
-international = 1 if international == "Yes" else 0
+    col1, col2 = st.columns(2)
+    with col1:
+        specialty_area = st.selectbox("**ESPECIALIDAD**", ["Humanidades y Artes", "Ciencias", "Biosanitario", "Tecnológico-Ingenierías", "Ciencias Sociales-Jurídicas"])
+        gender = st.selectbox("**Género**", ["Hombre", "Mujer"])
+        age_at_enrollment = st.number_input("**Edad**", min_value=16, max_value=100)
+        admission_grade = st.number_input("**NOTA MEDIA 1º Bachillerato**", min_value=0.0, max_value=10.0)
 
-# Crear un DataFrame con los datos ingresados
-data = pd.DataFrame({
-    #"Daytime/evening attendance": [daytime_evening_attendance],
-    #"Previous qualification (grade)": [previous_qualification_grade],
-    #"Mother's qualification": [mothers_qualification],
-    #"Father's qualification": [fathers_qualification],
-    #"Admission grade": [admission_grade],
-    #"Educational special needs": [educational_special_needs],
-    #"Debtor": [debtor],
-    #"Tuition fees up to date": [tuition_fees_up_to_date],
-    #"Gender": [gender],
-    #"Scholarship holder": [scholarship_holder],
-    #"Age at enrollment": [age_at_enrollment],
-    #"International": [international],
-    #"Curricular units 1st sem (credited)": [curricular_units_1st_sem_credited],
-    "Curricular units 1st sem (enrolled)": [curricular_units_1st_sem_enrolled],
-    #"Curricular units 1st sem (evaluations)": [curricular_units_1st_sem_evaluations],
-    "Curricular units 1st sem (approved)": [curricular_units_1st_sem_approved],
-    #"Curricular units 1st sem (grade)": [curricular_units_1st_sem_grade],
-    #"Curricular units 2nd sem (credited)": [curricular_units_2nd_sem_credited],
-    "Curricular units 2nd sem (enrolled)": [curricular_units_2nd_sem_enrolled],
-    #"Curricular units 2nd sem (evaluations)": [curricular_units_2nd_sem_evaluations],
-    "Curricular units 2nd sem (approved)": [curricular_units_2nd_sem_approved],
-    #"Curricular units 2nd sem (grade)": [curricular_units_2nd_sem_grade]
-})
+    with col2:
+        curricular_units_1st_sem_enrolled = st.number_input("**Asignaturas 1er Semestre (MATRICULADAS)**", min_value=0)
+        curricular_units_1st_sem_approved = st.number_input("**Asignaturas 1er Semestre (APROBADAS)**", min_value=0)
+        curricular_units_1st_sem_grade = st.number_input("**NOTA MEDIA 1er Semestre**", min_value=0.0, max_value=10.0)
+        curricular_units_2nd_sem_enrolled = st.number_input("**Asignaturas 2do Semestre (MATRICULADAS)**", min_value=0)
+        curricular_units_2nd_sem_approved = st.number_input("**Asignaturas 2do Semestre (APROBADAS)**", min_value=0)
+        curricular_units_2nd_sem_grade = st.number_input("**NOTA MEDIA 2do Semestre**", min_value=0.0, max_value=10.0)
 
-# Botón para realizar la predicción
-if st.button("Predecir"):
-    # Realizar predicción usando el pipeline completo (escalado y modelo)
-    prediccion = modelo.predict(data)
-    probabilidad = modelo.predict_proba(data)
+    st.subheader("Información Familiar")
+    col3, col4 = st.columns(2)
+    with col3:
+        fathers_qualification = st.selectbox("**Nivel de estudios del Padre**", ["Ninguno", "Primaria", "Instituto", "Estudios Univeritarios", "Posgrado - Doctorado"])
+    with col4:
+        mothers_qualification = st.selectbox("**Nivel de estudios de la Madre**", ["Ninguno", "Primaria", "Instituto", "Estudios Univeritarios", "Posgrado - Doctorado"])
 
-    # Mostrar resultados
-    st.write("Predicción:", "Se Gradúa" if prediccion[0] == 1 else "No se Gradúa")
-    st.write("Predicción:",  prediccion)
-    st.write("Probabilidad de éxito académico:", probabilidad[0][1])
-    st.write("Probabilidad de riesgo de abandono:", probabilidad[0][0])
-    
- 
+    st.subheader("Otros Datos")
+    tuition_fees_up_to_date = st.selectbox("**Pagos de Matrícula al Día**", ["Sí", "No"])
+    scholarship_holder = st.selectbox("**Becado**", ["Sí", "No"])
+
+    mothers_qualification = {"Ninguno": 0, "Primaria": 1, "Instituto": 2, "Estudios Univeritarios": 3, "Posgrado - Doctorado": 4}[mothers_qualification]
+    fathers_qualification = {"Ninguno": 0, "Primaria": 1, "Instituto": 2, "Estudios Univeritarios": 3, "Posgrado - Doctorado": 4}[fathers_qualification]
+    tuition_fees_up_to_date = 1 if tuition_fees_up_to_date == "Sí" else 0
+    gender = 0 if gender == "Hombre" else 1
+    scholarship_holder = 1 if scholarship_holder == "Sí" else 0
+
+    nota_media_final = (admission_grade * 0.5) + (curricular_units_1st_sem_grade * 0.25) + (curricular_units_2nd_sem_grade * 0.25)
+
+with tab2:
+    st.header("Resultados de la Predicción")
+
+    data = pd.DataFrame({
+        "Tuition fees up to date": [tuition_fees_up_to_date],
+        "Scholarship holder": [scholarship_holder],
+        "Curricular units 1st sem (enrolled)": [curricular_units_1st_sem_enrolled],
+        "Curricular units 1st sem (approved)": [curricular_units_1st_sem_approved],
+        "Curricular units 2nd sem (enrolled)": [curricular_units_2nd_sem_enrolled],
+        "Curricular units 2nd sem (approved)": [curricular_units_2nd_sem_approved],
+    })
+
+    if st.button("🔮 Predecir"):
+        with st.spinner("Calculando resultados..."):
+            prediccion = modelo.predict(data)
+            probabilidad = modelo.predict_proba(data)[0]
+
+        if prediccion[0] == 1:
+            st.success("## ✅ APTO")
+
+            # GIF
+            gif_path = "../01_data/05_images/homer.gif" 
+            st.image(gif_path, use_container_width=True)
+            time.sleep(5)  # Mostrar el GIF durante 5 segundos
+            st.empty()  # Limpiar el espacio del GIF
+
+            # Mostrar gráfico de pie dentro de un desplegable
+            with st.expander("### 📊 **Ver Probabilidades de Graduación**"):
+                st.subheader("Probabilidades de Graduación")
+                fig, ax = plt.subplots()
+                colors = ["#ff9999", "#99ff99"]
+                labels = ["NO APTO", "APTO"]
+                ax.pie(probabilidad, labels=labels, autopct='%1.1f%%', colors=colors, startangle=90)
+                ax.axis("equal")
+                st.pyplot(fig)
+
+            # Mostrar carreras accesibles
+            st.subheader("Carreras Disponibles")
+            carreras_accesibles = df_notas_corte[(df_notas_corte['NOTA FINAL'] <= nota_media_final) & 
+                                                 (df_notas_corte['Especialidad'] == specialty_area)]
+            carreras_accesibles = carreras_accesibles.sort_values(by='Grupo 1 Ord.', ascending=False)
+            st.dataframe(carreras_accesibles[['Código', 'TITULACIONES DE GRADO', 'Grupo 1 Ord.', 'Centro']])
+        else:
+            st.error("## ❌ NO APTO")
+
+
+# streamlit run app_svm_arreglitos_estetica_confeti.py
