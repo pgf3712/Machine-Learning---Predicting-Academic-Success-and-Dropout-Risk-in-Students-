@@ -2,7 +2,7 @@
   <img src="./01_data/05_images/Captura de pantalla 2024-11-07 193801.png" alt="Descripción de la imagen">
 </p>
 
-# 🎓 Proyecto de Machine Learning: Predicción de Éxito Académico y Orientación Vocacional 📊
+# 🎓 Proyecto de Machine Learning: Predicción de Éxito Académico 📊
 
 ## 📋 Descripción
 
