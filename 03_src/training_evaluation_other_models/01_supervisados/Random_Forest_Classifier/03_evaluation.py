@@ -11,7 +11,7 @@ import pickle
 
 # IMPORTO DATOS DE PRUEBA
 
-df_academico_test = pd.read_csv("../01_data/04_test/ds_academico_test.csv", sep=",")
+df_academico_test = pd.read_csv("../../../../01_data/04_test/ds_academico_test.csv", sep=",")
 
 # Separar características y target
 X_test = df_academico_test[["Tuition fees up to date", "Scholarship holder", "Curricular units 1st sem (enrolled)", "Curricular units 1st sem (approved)", "Curricular units 2nd sem (enrolled)", "Curricular units 2nd sem (approved)"]]
@@ -24,7 +24,7 @@ y_test = df_academico_test['Target']
 
 # CARGA DEL MODELO ENTRENADO
 
-with open('../04_models/other_models/01_supervisados/trained_model_random_forest_classifier.pkl', 'rb') as f:
+with open('../../../../04_models/other_models/01_supervisados/trained_model_random_forest_classifier.pkl', 'rb') as f:
     modelo_importado = pickle.load(f)
 
 

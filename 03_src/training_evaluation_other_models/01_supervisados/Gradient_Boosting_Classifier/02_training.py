@@ -10,7 +10,7 @@ import pickle
 
 
 # Cargar el modelo entrenado
-with open('../04_models/other_models/01_supervisados/trained_model_gradient_boosting_classifier.pkl', 'rb') as f:
+with open('../../../../04_models/other_models/01_supervisados/trained_model_gradient_boosting_classifier.pkl', 'rb') as f:
     modelo = pickle.load(f)
 
 
@@ -20,7 +20,7 @@ with open('../04_models/other_models/01_supervisados/trained_model_gradient_boos
 
 # IMPORTO DS PROCESSED
 
-df_academico = pd.read_csv("../01_data/02_processed/ds_academico.csv", sep=",") 
+df_academico = pd.read_csv("../../../../01_data/02_processed/ds_academico.csv", sep=",") 
 df_academico.head() 
 
 # RECORTO DS PROCESSED
@@ -30,13 +30,13 @@ train_df, test_df = train_test_split(df_academico, test_size=0.1, random_state=4
 
 # EXPORTO DS PROCESSED EN TRAIN Y TEST
 # conjunto de entrenamiento 
-train_df.to_csv('../01_data/03_train/ds_academico_train.csv', index=False)
+train_df.to_csv('../../../../01_data/03_train/ds_academico_train.csv', index=False)
 # conjunto de prueba 
-test_df.to_csv('../01_data/04_test/ds_academico_test.csv', index=False)
+test_df.to_csv('../../../../01_data/04_test/ds_academico_test.csv', index=False)
 
 # LEO NUEVO DS TRAIN CREADO EN EL PASO ANTERIOR
 
-df_academico_train = pd.read_csv("../01_data/03_train/ds_academico_train.csv", sep=",") 
+df_academico_train = pd.read_csv("../../../../01_data/03_train/ds_academico_train.csv", sep=",") 
 df_academico_train.head(1) 
 
 
@@ -51,16 +51,12 @@ y = df_academico_train['Target']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-mi_mejor_modelo = Pipeline([
-    ('scaler', StandardScaler()),
-    ('svm', SVC(C=0.1, gamma='scale', kernel='linear', probability=True, max_iter=1000))    # SVC finalmente 
-])
 
 # ENTRENAMIENTO DEL MODELO
-mi_mejor_modelo.fit(X_train, y_train)
+modelo.fit(X_train, y_train)
 
 # PREDICCIONES
-y_pred = mi_mejor_modelo.predict(X_test)
+y_pred = modelo.predict(X_test)
 
 # METRICAS DE RENDIMIENTO
 accuracy = accuracy_score(y_test, y_pred)

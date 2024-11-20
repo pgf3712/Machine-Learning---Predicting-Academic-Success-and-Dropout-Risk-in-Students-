@@ -2,49 +2,91 @@
   <img src="./01_data/05_images/Captura de pantalla 2024-11-07 193801.png" alt="Descripción de la imagen">
 </p>
 
-# 🎓 Proyecto de Machine Learning: Predicción de Éxito o Fracaso Académico 📊
-
-
+# 🎓 Proyecto de Machine Learning: Predicción de Éxito Académico y Orientación Vocacional 📊
 
 ## 📋 Descripción
 
-Este proyecto tiene como objetivo desarrollar un modelo de **Machine Learning** para predecir el éxito o fracaso académico de los estudiantes en función de sus características personales, académicas y socioeconómicas. Utilizando un enfoque de **clasificación**, el modelo identificará si un estudiante tiene probabilidades de **graduarse** o de **abandonar** sus estudios.
+Este proyecto utiliza **Machine Learning** para predecir el éxito o fracaso académico de estudiantes de bachillerato. Además, se ha desarrollado una aplicación en **Streamlit** que, basándose en las predicciones, ofrece orientación personalizada sobre carreras universitarias o grados superiores disponibles en Madrid según la especialidad del estudiante (Ciencias, Letras, Artes, etc.).
 
 ---
 
 ## 🚀 Objetivo del Proyecto
 
-El objetivo principal es construir un modelo que sea capaz de **clasificar a los estudiantes en categorías de éxito o fracaso académico**. Esto puede ayudar a las instituciones educativas a identificar estudiantes en riesgo y a implementar estrategias de intervención.
+1. **Predicción Académica:**  
+   Desarrollar un modelo para clasificar a los estudiantes en categorías de **graduado** o **no graduado**.
+   
+2. **Orientación Vocacional:**  
+   Proporcionar un listado de opciones académicas en Madrid para ayudar a los estudiantes a planificar su futuro de manera exitosa.
 
 ---
 
-## 📊 Datasets
+## 📊 Dataset
 
-- **Fuente**: Datos ficticios para propósitos de este proyecto.
-- **Variables clave**:
-  - Datos personales: Estado civil, edad, nacionalidad, género.
-  - Datos académicos: Calificaciones, asistencia, unidades curriculares.
-  - Datos socioeconómicos: Nivel educativo de los padres, ocupación, tasas de desempleo...
-
-> **Nota**: Actualmente, estamos en la fase de **limpieza de datos** y **preprocesamiento** para garantizar que el conjunto de datos esté listo para el análisis y modelado.
+- **Características principales:**
+  - Información personal: Edad, género, estado civil, entre otros.
+  - Datos académicos: Unidades curriculares aprobadas, evaluaciones, notas.
+  - Información socioeconómica: Nivel educativo de los padres, ocupación, becas.
+  - Factores económicos externos: Tasa de desempleo, inflación.
 
 ---
 
 ## 💡 Motivación
 
-Este proyecto busca utilizar técnicas de **Machine Learning** para abordar uno de los problemas más importantes en la educación: la **retención de estudiantes**. Al identificar patrones y factores que contribuyen al éxito o abandono, podemos ayudar a las instituciones a implementar programas de apoyo y mejorar las tasas de graduación.
+El proyecto busca no solo predecir el rendimiento académico, sino también aportar un valor adicional al guiar a los estudiantes hacia carreras o estudios superiores que maximicen sus posibilidades de éxito. Esto resulta particularmente útil para instituciones educativas y orientadores vocacionales.
 
 ---
 
-## 📅 Estado Actual del Proyecto
+## 🔬 Metodología
 
-- [x] Definición del proyecto y objetivos.
-- [x] Recolección y exploración de datos.
-- [ ] Limpieza y preprocesamiento de datos.
-- [ ] Análisis exploratorio de datos (EDA).
-- [ ] Selección y entrenamiento de modelos.
-- [ ] Evaluación y optimización de modelos.
-- [ ] Documentación final y presentación.
+1. **Preparación de Datos:**
+   - Limpieza, preprocesamiento y transformación de datos.
+   - Uso de **Standard Scaler** para normalizar las características numéricas.
+
+2. **Modelos Probados:**
+   Se entrenaron y evaluaron varios modelos supervisados y no supervisados:
+   - **Modelos Supervisados:**
+     - Decision Tree Classifier
+     - Gradient Boosting Classifier
+     - K-Nearest Neighbors (KNN)
+     - Logistic Regression
+     - Random Forest Classifier
+     - Support Vector Machines (SVM)
+   - **Modelos No Supervisados:**
+     - Clustering
+     - Análisis de Componentes Principales (PCA)
+   - **Modelo basado en redes neuronales:**  
+     Implementación de una Red Neuronal para clasificación.
+
+3. **Modelo Ganador:**
+   - El modelo de **Support Vector Machines (SVM)** obtuvo el mejor desempeño en términos de precisión, recall y F1-score.
+
+4. **Aplicación Web:**
+   - Desarrollo de una aplicación interactiva en **Streamlit** que:
+     - Predice si un estudiante se gradúa o no.
+     - Ofrece un listado personalizado de carreras o grados superiores en Madrid basándose en la especialidad del estudiante (Ciencias, Letras, Artes).
+
+---
+
+## 🛠️ Herramientas y Tecnologías
+
+- **Lenguaje:** Python
+- **Bibliotecas:** scikit-learn, pandas, numpy, matplotlib, seaborn.
+- **Aplicación Web:** Streamlit.
+- **Visualización:** PCA y gráficos de distribución para analizar resultados.
+
+---
+
+## 🏆 Resultados
+
+1. **Modelo SVM:**
+   - **Precisión:** 0.90
+   - **Recall:** 0.94
+   - **F1-Score:** 0.91
+  
+
+2. **Aplicación Streamlit:**
+   - Funcionalidad completa para predicciones.
+   - Ofrece orientación vocacional personalizada.
 
 ---
 ---
@@ -145,8 +187,6 @@ En esta sección se detallan las columnas del dataset utilizado en el proyecto. 
 - **Factores Económicos**: Las columnas sobre la tasa de desempleo, inflación y PIB pueden ayudar a relacionar factores económicos externos con el desempeño académico del estudiante.
 
 ---
-
-Este diseño te ayuda a entender mejor la estructura y relevancia de cada grupo de columnas en el contexto de la predicción del éxito o fracaso académico de los estudiantes. Puedes agregar o ajustar la descripción de acuerdo con el avance del análisis.
 
 
 
